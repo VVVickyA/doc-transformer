@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "doc-transformer"
+version = "0.1.0"
+description = "让 AI Agent 能够直接识别、编辑 Word/PDF 文档的工具链"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "DocTransformer Team"}
+]
+keywords = ["document", "word", "markdown", "converter", "ai-agent", "claude-code"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Text Processing :: Markup",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "python-docx>=1.0",
+    "click>=8.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/doc-transformer"
+Documentation = "https://github.com/YOUR_USERNAME/doc-transformer#readme"
+Repository = "https://github.com/YOUR_USERNAME/doc-transformer"
+Issues = "https://github.com/YOUR_USERNAME/doc-transformer/issues"
+
+[project.scripts]
+dt = "src.cli:cli"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
