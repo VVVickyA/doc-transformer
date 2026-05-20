@@ -1,7 +1,5 @@
 # DocTransformer
 
-[![PyPI version](https://badge.fury.io/py/doc-transformer.svg)](https://badge.fury.io/py/doc-transformer)
-[![Python Versions](https://img.shields.io/pypi/pyversions/doc-transformer.svg)](https://pypi.org/project/doc-transformer/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > 让 AI Agent 能够直接识别、编辑 Word/PDF 文档的工具链
@@ -197,7 +195,9 @@ brew install pandoc  # macOS
 sudo apt install pandoc  # Linux
 
 # 2. Install DocTransformer
-pip install doc-transformer
+git clone https://github.com/VVVickyA/doc-transformer.git
+cd doc-transformer
+pip install -e .
 ```
 
 ### Quick Start
@@ -231,7 +231,7 @@ MIT
 
 ## 作者
 
-- **DocTransformer Team** - [GitHub](https://github.com/YOUR_USERNAME)
+- **VVVickyA** - [GitHub](https://github.com/VVVickyA)
 
 ## 致谢
 

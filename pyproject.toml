@@ -33,10 +33,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/YOUR_USERNAME/doc-transformer"
-Documentation = "https://github.com/YOUR_USERNAME/doc-transformer#readme"
-Repository = "https://github.com/YOUR_USERNAME/doc-transformer"
-Issues = "https://github.com/YOUR_USERNAME/doc-transformer/issues"
+Homepage = "https://github.com/VVVickyA/doc-transformer"
+Documentation = "https://github.com/VVVickyA/doc-transformer#readme"
+Repository = "https://github.com/VVVickyA/doc-transformer"
+Issues = "https://github.com/VVVickyA/doc-transformer/issues"
 
 [project.scripts]
 dt = "src.cli:cli"

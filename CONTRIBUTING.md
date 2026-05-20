@@ -6,7 +6,7 @@
 
 ### 报告 Bug
 
-1. 在 [Issues](https://github.com/YOUR_USERNAME/doc-transformer/issues) 页面创建新 Issue
+1. 在 [Issues](https://github.com/VVVickyA/doc-transformer/issues) 页面创建新 Issue
 2. 描述清楚问题和复现步骤
 3. 如果可能，提供错误日志和截图
 
@@ -27,7 +27,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/YOUR_USERNAME/doc-transformer.git
+git clone https://github.com/VVVickyA/doc-transformer.git
 cd doc-transformer
 
 # 创建虚拟环境
